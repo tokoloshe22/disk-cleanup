@@ -1,6 +1,6 @@
 ---
 - name: House Keeping old log files
-  hosts: "{{ nodes }}"
+  hosts: devops
   vars:
     directories: ['E:\test-space-cleanup']
     #filepattern: ['r*']
