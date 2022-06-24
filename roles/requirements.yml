@@ -2,6 +2,6 @@
 collections:
   # Install a collection from Ansible Galaxy.
   - name: ansible.windows
-    source: https://github.com/ansible-collections/ansible.windows.git
+    source: https://github.com/ansible-collections/ansible.windows
 
 
