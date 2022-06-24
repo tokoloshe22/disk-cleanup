@@ -1,7 +1,7 @@
 ---
 collections:
-# With just the collection name
-- ansible.windows
-- source: https://github.com/ansible-collections/ansible.windows.git
+  # Install a collection from Ansible Galaxy.
+  - name: ansible.windows
+    source: https://github.com/ansible-collections/ansible.windows.git
 
 
