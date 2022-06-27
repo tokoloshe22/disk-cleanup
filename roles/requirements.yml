@@ -1,7 +1,8 @@
 ---
-collections:
-  # Install a collection from Ansible Galaxy.
-  - name: ansible.windows
-    source: https://github.com/ansible-collections/ansible.windows
+roles:
+  - name: geerlingguy.ansible
 
+collections:
+  - name: ansible.windows
+- src: https://github.com/ansible-collections/ansible.windows.git
 
