@@ -1,6 +1,6 @@
 ---
 roles:
-  - name: geerlingguy.ansible
+- name: geerlingguy.ansible
 
 collections:
   - name: ansible.windows
