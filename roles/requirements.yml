@@ -1,7 +1,3 @@
 ---
-roles:
-- name: geerlingguy.ansible
-
 collections:
-  - name: ansible.windows
-- src: https://github.com/ansible-collections/ansible.windows.git
+- name: community.windows
