@@ -5,6 +5,6 @@
 
   - name: Run basic PowerShell script
     ansible.windows.win_shell: |
-      $limit =  (Get-Date).AddDays(-15)
+      $limit =  (Get-Date).AddDays(-25)
       $path = "E:\TFSBuildAgents\BET.Staging\_work"
       Get-ChildItem $path | ? { $_ -clike 'r*' } | Where-Object {($_.LastWriteTime -lt $limit) } | remove-item -force -recurse
